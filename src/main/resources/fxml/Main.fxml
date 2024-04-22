@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="379.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane nodeOrientation="RIGHT_TO_LEFT" prefHeight="379.0" prefWidth="594.0" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="100.0" tabMaxWidth="300.0" tabMinWidth="400.0" VBox.vgrow="ALWAYS">
+        <tabs>
+          <Tab onSelectionChanged="#tabChangeAction" text="لوحة التحكم">
+            <content>
+                  <VBox>
+                     <children>
+                        <VBox prefHeight="425.0" prefWidth="625.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ButtonBar prefHeight="26.0" prefWidth="505.0" style="-fx-background-color: skyblue;">
+                                <buttons>
+                                  <Button mnemonicParsing="false" onAction="#loadMealsScreen" text="الأصناف" />
+                                    <Button mnemonicParsing="false" onAction="#loadCategoriesScreen" text="الفئات" />
+                                    <Button mnemonicParsing="false" onAction="#loadOrdersScreen" text="الطلبات" />
+                                    <Button mnemonicParsing="false" onAction="#loadCustomersScreen" text="العملاء" />
+                                    <Button mnemonicParsing="false" onAction="#loadSettingsScreen" text="الإعدادات" />
+                                    <Button mnemonicParsing="false" onAction="#loadAdminsScreen" text="المستخدمين" />
+                                </buttons>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets right="10.0" />
+                                 </padding>
+                              </ButtonBar>
+                          <AnchorPane fx:id="canvas" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                           </children>
+                        </VBox>
+                        <fx:include source="copyright.fxml" />
+                     </children>
+                  </VBox>
+            </content>
+          </Tab>
+          <Tab onSelectionChanged="#tabChangeAction" text="شاشة البيع">
+               <content>
+                  <AnchorPane fx:id="orderingCanvas" prefHeight="200.0" prefWidth="200.0" />
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

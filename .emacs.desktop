@@ -1,0 +1,67 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Dec 11 02:12:33 2021
+;; Desktop file format version 208
+;; Emacs version 27.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25011 60657 219444 0) (desktop . "208") "walid@DESKTOP-89G77TT" nil nil ((((minibuffer) (undecorated) (skip-taskbar) (font . "-outline-DejaVu Sans Mono-normal-normal-normal-mono-13-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "SystemWindowText") (background-color . "SystemWindow") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 0) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 47) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 17) (fullscreen) (z-group) (visibility . t) (display-type . color) (background-mode . light) (cursor-color . "black") (last-focus-update) (frameset--id . "41DA-1BCB-5167-081A") (frameset--mini nil . "E28E-96B1-7C13-AC5C") (width . 47) (modeline . t) (unsplittable . t) (left . 918) (top . 13) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 60) (min-pixel-width . 80) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 24) (min-pixel-height-safe . 15) (min-pixel-width-safe . 16)) leaf (last . t) (pixel-width . 384) (pixel-height . 705) (total-width . 48) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (buffer " SPEEDBAR" (selected) (hscroll . 0) (fringes 0 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated . t) (point . 525) (start . 1)) (prev-buffers ("OrderContentsService.java" 1 396))) (((minibuffer . t) (undecorated) (skip-taskbar) (font . "-outline-DejaVu Sans Mono-normal-normal-normal-mono-13-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#000000") (background-color . "#ffffe0") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 47) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 17) (fullscreen . maximized) (z-group) (visibility . t) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (last-focus-update . t) (frameset--id . "E28E-96B1-7C13-AC5C") (frameset--mini t . t) (width . 168) (modeline . t) (unsplittable) (left + -8) (top + -8) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 60) (min-pixel-width . 160) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 15) (min-pixel-width-safe . 32)) hc (pixel-width . 1366) (pixel-height . 700) (total-width . 171) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 654) (pixel-height . 700) (total-width . 82) (total-height . 46) (normal-height . 1.0) (normal-width . 0.49025487256371814) (buffer "OrdersService.java" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 350) (start . 1)) (prev-buffers ("OrderContent.java" 1 414) ("Order.java" 1 648) ("OrdersService.java" 1 350) ("OrderContentsService.java" 1 396) ("*scratch*" 1 146))) (leaf (last . t) (pixel-width . 712) (pixel-height . 700) (total-width . 89) (total-height . 46) (normal-height . 1.0) (normal-width . 0.5097451274362819) (buffer "Order.java" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 728) (start . 1)) (prev-buffers ("OrderContent.java" 1 368)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("order" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("orde" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("conten" 0 6 (isearch-regexp-function nil isearch-case-fold-search t))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '(#("c:/Users/walid/workspace/tajine/" 0 32 (ivy-index 0)) #("c:/Users/walid/workspace/tajine/src/main/java/com/tajine/domain/Order.java" 0 74 (ivy-index 2)) #("c:/Users/walid/workspace/tajine/src/main/java/com/tajine/domain/OrderContent.java" 0 81 (ivy-index 1)) #("c:/Users/walid/AppData/Roaming/.emacs.d/.cache/lsp/eclipse.jdt.ls/" 0 66 (ivy-index 0))))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "c:/Users/walid/workspace/tajine/src/main/java/com/tajine/services/OrdersService.java"
+  "OrdersService.java"
+  'conf-desktop-mode
+  '(ivy-mode projectile-mode dap-mode)
+  350
+  '(350 nil)
+  nil
+  nil
+  '((buffer-display-time 25011 60652 84903 0) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (379))))
+
+(desktop-create-buffer 208
+  "c:/Users/walid/workspace/tajine/src/main/java/com/tajine/domain/OrderContent.java"
+  "OrderContent.java"
+  'java-mode
+  '(abbrev-mode eldoc-mode ivy-mode projectile-mode dap-mode flymake-mode)
+  414
+  '(205 nil)
+  nil
+  nil
+  '((buffer-display-time 25011 60626 184615 0) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (205))))
+
+(desktop-create-buffer 208
+  "c:/Users/walid/workspace/tajine/src/main/java/com/tajine/domain/Order.java"
+  "Order.java"
+  'java-mode
+  '(abbrev-mode eldoc-mode ivy-mode projectile-mode lsp-mode dap-mode company-mode flymake-mode)
+  728
+  '(728 nil)
+  nil
+  nil
+  '((buffer-display-time 25011 60652 84903 0) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (677 590 687 678))))
+
+(desktop-create-buffer 208
+  "c:/Users/walid/workspace/tajine/src/main/java/com/tajine/services/OrderContentsService.java"
+  "OrderContentsService.java"
+  'java-mode
+  '(abbrev-mode eldoc-mode ivy-mode projectile-mode dap-mode company-mode flymake-mode)
+  396
+  '(396 nil)
+  nil
+  nil
+  '((buffer-display-time 25011 60045 748365 0) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (396 558 407 37 37 37 559 37 29 37 37 559))))
+
